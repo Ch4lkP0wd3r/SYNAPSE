@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+.ipynb_checkpoints/
+*.log
+multi_layer_report.json
+*.png
+!assets/*.png
