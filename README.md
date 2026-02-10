@@ -7,7 +7,7 @@
 ## 🏗️ System Architecture
 
 <img src="assets/dashboard.png" width="800" alt="SYNAPSE Dashboard">
-**Professional transaction monitoring environment with real-time risk telemetry.**
+Professional transaction monitoring environment with real-time risk telemetry.
 
 SYNAPSE is built with a modular architecture to ensure transparency and scalability across different analysis domains.
 
