@@ -48,8 +48,8 @@ graph TD
 ## 🧬 Analytical Methodology
 
 ### 1. Composite Judgment Framework
-<img src="assets/radar_chart.png" width="600" alt="Forensic Radar Chart">
-*Multi-dimensional forensic profile highlighting specific risk signatures.*
+<img src="assets/multilayeranalysis2.png" width="600" alt="Multi-Layer Analysis Pass">
+*Consolidated risk telemetry from 10 distinct analytical layers.*
 
 Every transaction is evaluated against **10 distinct analytical layers** to generate a comprehensive risk profile:
 - **Transactional Behavior**: Volumetric spikes and round-figure thresholds.
@@ -64,16 +64,27 @@ Every transaction is evaluated against **10 distinct analytical layers** to gene
 - **Contextual Indicators**: Behavioral cues and procedural inconsistencies.
 
 ### 2. High-Precision ML Ensemble
-<img src="assets/ml_flags.png" width="600" alt="ML Flagged Transactions">
+<img src="assets/UltraML.png" width="600" alt="High-Precision ML Detection">
 *Validated fraud probability flags across the ensemble pipeline.*
 
 The system utilizes a supervised ensemble (XGBoost + LightGBM + Random Forest) optimized via **Statistical Consensus**. This ensures that flags are not just anomalies, but validated indicators with a high probability of relevance.
 
 ### 3. Forensic Network Analytics
+<img src="assets/network_vizualization.png" width="600" alt="Network Visualization">
+*Real-time graph analysis identifying layering paths and circular flows.*
+
 Using **NetworkX**, SYNAPSE identifies:
 - **Circular Flows**: Potential money-laundering "loops."
 - **Layering Schemes**: Multi-hop paths designed to hide fund origins.
 - **Community Clusters**: Sub-groups of accounts acting in coordination.
+
+---
+
+## 🌍 Geographic Intelligence
+<img src="assets/Geographic_intelligence.png" width="600" alt="Geographic Intelligence">
+*Jurisdictional risk mapping and tax haven proximity analysis.*
+
+SYNAPSE tracks funds across borders to identify transfers involving high-risk concealment zones, offshore tax havens, and sanctioned jurisdictions.
 
 ---
 
